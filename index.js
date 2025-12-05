@@ -77,7 +77,7 @@ app.post("/predict_business", async (req, res) => {
 // ---------------------------------------------------------
 // Server Listen
 // ---------------------------------------------------------
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Relay server running on port ${PORT}`);
 });
